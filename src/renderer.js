@@ -210,6 +210,7 @@ const concatBubble = (floatAvatar = true) => {
                 const avatarLower = lower.querySelector('span.avatar-span')
                 const avatarUpper = upper.querySelector('span.avatar-span')
                 const usernameNodeLower = lower.querySelector('div.user-name')
+                const usernameNodeUpper = upper.querySelector('div.user-name')
                 const usernameLower = avatarLower.getAttribute('aria-label')
                 const usernameUpper = avatarUpper.getAttribute('aria-label')
                 const contentLower = lower.querySelector('div.msg-content-container')
@@ -222,9 +223,9 @@ const concatBubble = (floatAvatar = true) => {
                     // 隐藏lower头像
                     avatarUpper.style.display = 'none'
                     // lower的username 不显示
-                    if (usernameNodeLower) {
-                        usernameNodeLower.style.marginBottom = '0'
-                        usernameNodeLower.style.display = 'none'
+                    if (usernameNodeUpper) {
+                        usernameNodeUpper.style.marginBottom = '0'
+                        usernameNodeUpper.style.display = 'none'
                     }
                     // 更新upper的border-radius
                     if (contentUpper && contentUpper.classList) {
