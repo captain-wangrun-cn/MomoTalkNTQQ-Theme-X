@@ -225,7 +225,7 @@ const concatBubble = (floatAvatar = true) => {
                     if (usernameNodeLower) {
                         usernameNodeLower.style.marginBottom = '0'
                         usernameNodeLower.style.display = 'none'
-                    }*/
+                    }
                     // 更新upper的border-radius
                     if (contentUpper && contentUpper.classList) {
                         if (contentUpper.classList.contains('container--others')) {
