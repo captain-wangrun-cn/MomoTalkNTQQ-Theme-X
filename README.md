@@ -1,5 +1,12 @@
 # MomoTalkNTQQ-Theme
 
+经过WR修改
+
+修改内容:
+> 相近时间点的多条消息，首条显示名称与头像，剩余全部隐藏
+
+<br>
+
 ![1](screenshot/1.png)
 
 [LiteLoaderQQNT](https://github.com/mo-jinran/LiteLoaderQQNT) 插件，基于 [LiteLoaderQQNT-Telegram-Theme](https://github.com/festoney8/LiteLoaderQQNT-Telegram-Theme/tree/v4) 低质量修改，低仿 Momotalk 风格的QQNT主题
