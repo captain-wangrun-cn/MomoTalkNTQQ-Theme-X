@@ -221,11 +221,12 @@ const concatBubble = (floatAvatar = true) => {
                     lower.style.setProperty('margin-bottom', '5px', 'important')
                     // 隐藏lower头像
                     avatarUpper.style.display = 'none'
+                    /* 直接去掉得了nmgb
                     // upper的username 不显示
                     if (usernameNodeUpper) {
                         usernameNodeUpper.style.marginBottom = '0'
                         usernameNodeUpper.style.display = 'none'
-                    }
+                    }*/
                     // 更新upper的border-radius
                     if (contentUpper && contentUpper.classList) {
                         if (contentUpper.classList.contains('container--others')) {
