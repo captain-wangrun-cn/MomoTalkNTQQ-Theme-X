@@ -215,10 +215,12 @@ const concatBubble = (floatAvatar = true) => {
                 const contentLower = lower.querySelector('div.msg-content-container')
                 if (!isLowerTimestamp && usernameUpper === usernameLower) {
                     const bubbleLower = lower.querySelector('div.msg-content-container')
-                    // 强制覆盖upper message的margin-bottom
-                    upper.style.setProperty('margin-bottom', '5px', 'important')
-                    // 隐藏upper头像
-                    avatarLower.style.display = 'none'
+                    // 修改顺序
+                    
+                    // 强制覆盖lower message的margin-bottom
+                    lower.style.setProperty('margin-bottom', '5px', 'important')
+                    // 隐藏lower头像
+                    avatarUpper.style.display = 'none'
                     // lower的username 不显示
                     if (usernameNodeLower) {
                         usernameNodeLower.style.marginBottom = '0'
